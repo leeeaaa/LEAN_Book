@@ -8,7 +8,8 @@ TITLE OF THE BOOK
    :maxdepth: 2
 
    01_Introduction
-   02_Basics
+   02_Definition
+   03_Beispiel
 
 .. toctree::
    :hidden:
