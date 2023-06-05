@@ -6,11 +6,11 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'LEAN BOOK'
-subtitle = 'TAYLORPOLYNOM'
-author = 'LEA'
-copyright = '2022, ' + author
-book_file_name = 'LEANBOOK'
+project = 'LEAN Buch'
+subtitle = 'Taylorpolynom'
+author = 'Lea Soffel'
+copyright = '2023, ' + author
+book_file_name = 'lean_buch'
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'

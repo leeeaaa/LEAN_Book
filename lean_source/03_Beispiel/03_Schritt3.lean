@@ -1,6 +1,6 @@
 /- TEXT:
 Schritt 3: Werte in die Formel einsetzen
-====
+========================================
 
 Zur Erinnerung, die Formel lautet:
 
@@ -35,7 +35,7 @@ def taylor (x : nat) (x0 : nat):=
 Jetzt wollen wir unsere Formel auf den Entwicklungspunkt :math:'x_0 = 1' anwenden und unser Ergebnis testen:
 
 
-TEXT.-/
+TEXT. -/
 
 -- QUOTE:
 

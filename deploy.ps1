@@ -29,7 +29,7 @@ Copy-Item ..\user_repo\. . -Recurse -Force
 Copy-Item ..\leanpkg.toml . -Force
 
 Copy-Item ..\build\html .\html -Recurse -Container
-Copy-Item ..\build\latex\BOOK_FILE_NAME.pdf . -Force
+Copy-Item ..\build\latex\lean_buch.pdf . -Force
 Copy-Item ..\src .\src -Recurse -Container
 
 $DATE=Get-Date

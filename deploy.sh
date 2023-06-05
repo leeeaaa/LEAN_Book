@@ -25,7 +25,7 @@ cp -rf ../user_repo/. .
 cp -f ../leanpkg.toml .
 
 cp -rf ../build/html ./html
-cp -f ../build/latex/BOOK_FILE_NAME.pdf .
+cp -f ../build/latex/lean_buch.pdf .
 cp -rf ../src ./src
 
 DATE=$(date +"%m/%d/%Y %T")

@@ -1,6 +1,6 @@
 
 
-TITLE OF THE BOOK
+LEAN Buch
 ===================
 
 .. toctree::

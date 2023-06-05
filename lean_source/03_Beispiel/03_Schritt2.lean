@@ -2,7 +2,7 @@
 /- TEXT:
 
 Schritt 2: Werte der Ableitungen am Entwicklungspunkt berechnen
-====
+===============================================================
 
 Da LEAN die Werte selbst berechnen kann, können wir uns diesen Schritt sparen. 
 

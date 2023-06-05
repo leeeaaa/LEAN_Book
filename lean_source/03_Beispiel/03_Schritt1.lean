@@ -1,4 +1,3 @@
-
 import data.real.basic
 
 
@@ -58,7 +57,7 @@ Kopiere den Codeschnipsel raus und vervollständige die Fakultätsfunktion.
 Mithilfe der *#eval* Statements kannst du deine Definition überprüfen. 
 
 
-TEXT.-/
+TEXT. -/
 
 -- QUOTE:
 
@@ -81,7 +80,7 @@ def fac : ℕ → ℕ
 /- TEXT:
 
 Schritt 1: Ableitungen bestimmen
-====
+================================
 
 Im 1. Schritt müssen die Ableitungen definiert werden. 
 Da wir das Taylorpolynom des 4. Grades berechnen wollen, benötigen wir die ersten 4 Ableitungen der Funktion :math:'f(x)'.

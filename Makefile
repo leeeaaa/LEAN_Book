@@ -5,7 +5,7 @@
 # from the environment for the first two.
 SPHINXOPTS    =
 SPHINXBUILD   = python -msphinx  # was: sphinx-build
-SPHINXPROJ    = BOOK_FILE_NAME
+SPHINXPROJ    = lean_buch
 SOURCEDIR     = source
 BUILDDIR      = build
 
