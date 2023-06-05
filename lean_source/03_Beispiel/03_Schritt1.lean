@@ -8,15 +8,15 @@ Wir wollen nun am Beispiel der Funktion
 .. math::
   f(x) = 7x^4 + x^3 + 3x^2 + 5x - 7
 
-das Taylorpolynon des 4. Grades aufstellen. Als Entwicklungspunkt wählen wir den Punkt :math:'x_0 = 1'
+das Taylorpolynon des 4. Grades aufstellen. Als Entwicklungspunkt wählen wir den Punkt :math:`x_0 = 1`
 
 Wir haben also gegeben
 
-- :math:'f(x) = 7x^4 + x^3 + 3x^2 + 5x - 7',
-- :math:'x_0 = 1' und
-- :math:'n = 4'.
+- :math:`f(x) = 7x^4 + x^3 + 3x^2 + 5x - 7`,
+- :math:`x_0 = 1` und
+- :math:`n = 4`.
 
-Bevor wir mit dem ersten Schritt loslegen müssen wir zuerst die Funktion :math:'f' implementieren.
+Bevor wir mit dem ersten Schritt loslegen müssen wir zuerst die Funktion :math:`f` implementieren.
 
 TEXT. -/
 
@@ -34,8 +34,8 @@ def f (x: nat) := 7*x^4 + x^3 + 3*x^2 + 5*x - 7
 
 Um deine Funktion zu überprüfen kannst du die folgenden beiden Werte ausrechnen lassen:
 
-- :math:'f(0) = -7'
-- :math:'f(5) = 13768'
+- :math:`f(0) = -7`
+- :math:`f(5) = 13768`
 
 TEXT. -/
 
@@ -79,11 +79,11 @@ def fac : ℕ → ℕ
 
 /- TEXT:
 
-Schritt 1: Ableitungen bestimmen
-================================
+Ableitungen bestimmen
+--------------------------------
 
 Im 1. Schritt müssen die Ableitungen definiert werden. 
-Da wir das Taylorpolynom des 4. Grades berechnen wollen, benötigen wir die ersten 4 Ableitungen der Funktion :math:'f(x)'.
+Da wir das Taylorpolynom des 4. Grades berechnen wollen, benötigen wir die ersten 4 Ableitungen der Funktion :math:`f(x)`.
 
 Kopiere die unteren Codeschnipsel und füge jeweils die Ableitungen hinzu.
 Um dein Ergebnis zu testen, kannst du wieder die *#eval* Statements ausführen.
@@ -92,6 +92,7 @@ Kommen die Ergebnisse, die als Kommentar dahinter notiert sind raus, so ist die 
 TEXT. -/
 
 -- QUOTE:
+-- EXAMPLES:
 
 -- 1. Ableitungen definieren 
 def f' (x: nat) := () -- dein Code hier
@@ -108,6 +109,7 @@ def f' (x: nat) := 21*x^3 + 3*x^2 + 6*x + 5
 
 
 -- QUOTE:
+-- EXAMPLES:
 
 -- 2. Ableitung definieren
 def f'' (x: nat) := () -- dein Code hier
@@ -123,7 +125,7 @@ def f'' (x: nat) := () -- dein Code hier
 def f'' (x: nat) := 63*x^2 + 6*x + 6
 
 -- QUOTE:
-
+-- EXAMPLES:
 -- 3. Ableitung definieren
 def f''' (x: nat) := () -- dein Code hier
 
@@ -138,6 +140,7 @@ def f''' (x: nat) := () -- dein Code hier
 def f''' (x: nat) := 126*x + 6
 
 -- QUOTE:
+-- EXAMPLES:
 
 -- 4. Ableitung definieren
 def f'''' (x: nat) := () -- dein Code hier

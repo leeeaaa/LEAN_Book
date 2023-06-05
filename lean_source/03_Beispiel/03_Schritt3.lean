@@ -1,18 +1,18 @@
 /- TEXT:
-Schritt 3: Werte in die Formel einsetzen
-========================================
+Werte in die Formel einsetzen
+--------------------------------
 
 Zur Erinnerung, die Formel lautet:
 
 .. math::
 
-  T(x) = \sum_{k=0}^{n} \frac{f^(k)(x_0) \cdot (x - x_0)^}{k!}
+  T(x) = \sum_{k=0}^{n} \frac{f^(k)(x_0) \cdot (x - x_0)^1}{k!}
 
 Angewendet auf unseren Anwendungsfall mit :math:'n = 4' ergibt sich:
 
 .. math::
 
-  T(x) = \sum_{k=0}^{4} \frac{f^(k)(1) \cdot (x - 1)^}{k!}
+  T(x) = \sum_{k=0}^{4} \frac{f^(k)(1) \cdot (x - 1)^1}{k!}
 
 Nun können wir mit den bereits definierten Ableitungen unsere Taylorpolynom-Formel aufstellen.
 :math:'x_0' geben wir vorerst als zweite Variable mit in unsere Taylorpolynom-Formel, so können wir für verschiedene Entwicklungspunkte das Taylorpolynom berechnen.
