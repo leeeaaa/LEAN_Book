@@ -14,7 +14,7 @@ if (Test-Path deploy) {
 
 # 3. Deploy
 
-& git clone git@github.com:DEST_REPO deploy
+& git clone git@github.com:leeeaaa/TaylorpolynomBuch.git deploy
 
 Set-Location deploy
 
